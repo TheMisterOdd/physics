@@ -1,6 +1,6 @@
 # physics
-physics simulations made with p5js
-try them [here](https://editor.p5js.org/)
+physics simulations made with p5js.
+Try them [here](https://editor.p5js.org/)
 
 ## Ball & Trough
 #### Lagrangian
