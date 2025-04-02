@@ -15,7 +15,7 @@ $$
 $$
 \dot{\varphi} = - \frac{R}{r} \dot{\psi} \cos{\phi} + \left (\frac{R}{r} - 1 \right)\dot{\phi}
 $$
-### Other Conditions:
+#### Other Conditions:
 $$
 c = \frac{2 R}{\pi}
 $$
