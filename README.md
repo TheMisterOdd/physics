@@ -1,6 +1,6 @@
 # physics
 physics simulations made with p5js.
-Try them [here](https://editor.p5js.org/)
+Try them [here](https://editor.p5js.org/). Just paste the code of one of the demos into the p5js editor.
 
 ## Ball & Trough
 
