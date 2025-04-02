@@ -1,4 +1,4 @@
-const r = 5, R = 50, c = 0.8 * R
+const r = 15, R = 50, c = 0.8 * R
 const Mb = 1, Mc = Math.sqrt(3)
 const Ib = (2/5) * Mb * r * r, Ic = 0.25 * Mc * (2*R*R + c*c + 2*R*c)
 const g = 981.0
@@ -42,7 +42,7 @@ function draw() {
   
   
   x = -R * psi 
-  dtheta = -(-R/r) * dpsi * cos(phi) - (R/r - 1) * dphi; 
+  dtheta = -(R/r) * dpsi * cos(phi) + (R/r - 1) * dphi; 
   theta += dtheta * dt;
   
   let Xcm = x + c * sin(psi)
@@ -53,7 +53,7 @@ function draw() {
   
   strokeWeight(2);
   line(x, 0, Xcm, -Ycm);
-  line(Xb, -Yb, Xb + r*sin(theta), -Yb + r*cos(theta))
+  line(Xb, -Yb, Xb + r*sin(theta), -Yb - r*cos(theta))
 
   
   fill(255, 0, 0)
