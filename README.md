@@ -15,3 +15,13 @@ $$
 $$
 \dot{\varphi} = - \frac{R}{r} \dot{\psi} \cos{\phi} + \left (\frac{R}{r} - 1 \right)\dot{\phi}
 $$
+### Other Conditions:
+$$
+c = \frac{2 R}{\pi}
+$$
+$$
+Ib = \frac{2}{5} m_b r^2
+$$
+$$
+Ic = \frac{1}{4} m_c (2 R^2 + c^2 + 2 R c)
+$$
